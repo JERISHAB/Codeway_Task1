@@ -1,0 +1,486 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200&family=Protest+Strike&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.homepage{
+    background-image: linear-gradient(to bottom, rgba(11, 18, 27, 0.5), rgb(0, 2, 7)), url('images/ribbon-light-space.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.mid{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    /* background-color: rgb(115, 200, 11); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 25px;
+ 
+}
+
+.mid > ul{
+    display: flex;
+    justify-content:space-between;
+}
+
+.mid > ul > li{
+    list-style: none;
+    padding: 0px 30px;
+}
+
+.mid > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 250;
+}
+
+.mid > ul > li > a:hover{
+    color: #CC005F;
+    transition: border-color 0.3s, color 0.3s;
+    
+}
+
+.right > a {
+    padding: 0px 10px;
+}
+
+.right > a > img{
+    height: 25px;
+  
+}
+
+.head-1{
+   font-size: 1.2rem;
+   color: #CC005F;
+      
+}
+.head-2{
+    font-size: 6rem;
+    color: white;
+}
+.head-3{
+    font-size: 1rem;
+    color: rgb(210, 203, 203);
+    font-weight:300;
+}
+
+.home{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myname{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactme{
+    margin-top: 25px;
+    border-style: solid; 
+    border-color: #ffffff; 
+
+
+    border-width: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 10px 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contactme:hover{
+    border-style: solid;
+    border-color: #CC005F;
+    border-width: 2px;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    padding:60px;
+}
+.about_2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_right{
+padding: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-weight: 300;
+}
+
+
+.about > .about_2 > .about_left > img{
+    
+    height: 30rem;
+}
+
+.about_r{
+   margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: 40vh;
+    background-color: #faf8f8;
+}
+
+
+
+.skill-head{
+    font-size: 40px;
+    font-weight: 300;
+    transform: rotate(270deg);
+}
+
+.skill_label{
+    font-weight: 350;
+}
+
+.one_bar{
+    margin: 40px 10px;
+}
+
+.bar-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.percent{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.skill_bar {
+    width: 300px; 
+    height: 10px; 
+    background-color: #adabab; 
+    margin-bottom: 10px; 
+}
+
+/* Styling for the colored portion of the skill bar */
+.skill-level {
+    height: 100%; 
+    background-color: #000000; 
+}
+
+.skill-bar-90 .skill-level {
+    width: 90%; 
+}
+
+.skill-bar-80 .skill-level {
+    width: 80%; 
+}
+
+.skill-bar-70 .skill-level {
+    width: 70%; 
+}
+
+.skill-bar-60 .skill-level {
+    width: 60%; 
+}
+
+.skill-bar-50 .skill-level {
+    width: 50%; 
+}
+
+
+.resume{
+    background-color: #faf8f8;
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    align-items: center;
+    padding-left: 140px;
+    padding-bottom: 50px;
+}
+
+.hire-btn{
+    padding: 12px 50px;
+    font-size: 20px;
+    background-color:#00000000;
+    border: solid #000000;
+    cursor: pointer;
+}
+
+.hire-btn:hover{
+    padding: 12px 50px;
+    font-size: 20px;
+    background-color:#00000000;
+    border: solid #CC005F;
+    color: #CC005F;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.resume-btn{
+    padding: 12px 10px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+    border: solid #000000;
+}
+.resume-btn:hover{
+    background-color: #575353;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.portfolio{
+    height: 50vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+.projects-1{
+    margin: 30px 0px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items:center;
+}
+
+.card-1{
+    height: 14rem;
+    width: 13rem;
+    background-color: rgb(0, 0, 0);
+    border: solid #CC005F;
+    border-radius: 5%;
+    padding: 5px;
+    background-image: url('images/urbanwheels.png') ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-2{
+    height: 14rem;
+    width: 13rem;
+    background-color: rgb(0, 0, 0);
+    border: solid #CC005F;
+    border-radius: 5%;
+    padding: 5px;
+    background-image: url('images/educlub.png') ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-3{
+    height: 14rem;
+    width: 13rem;
+    background-color: rgb(0, 0, 0);
+    border: solid #CC005F;
+    border-radius: 5%;
+    padding: 5px;
+    background-image: url('images/music_player.png') ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-4{
+    height: 14rem;
+    width: 13rem;
+    background-color: rgb(0, 0, 0);
+    border: solid #CC005F;
+    border-radius: 5%;
+    padding: 5px;
+    background-image: url('images/quickcart.png') ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card_head{
+    padding: 2px 2px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ece6e6;
+}
+
+.contact{
+    height: 60vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    padding: 40px 40px;
+    height: 80%;
+    background-color: rgb(92, 157, 213);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: first baseline;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.right-contact{
+    color: #ffffff;
+    padding: 40px 40px;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: first baseline;
+    background-color: #000000;
+}
+
+.left > div > input {
+    margin: 5px 0px;
+    padding: 7px 5px;
+    border: solid #0000001f;
+    border-width: 1px;
+}
+
+.left > h1{
+    font-size: 30px;
+}
+
+.left > button {
+    padding: 8px 8px;
+    background-color: #CC005F;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.left > button:hover {
+    background-color: #bc2a6e;
+}
+
+.left > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont > p > span {
+    font-weight: bolder;
+}
+
+textarea{
+    padding: 5px;
+    border: solid #0000001f;
+    border-width: 1px;
+}
+
+
+
+/* footer style starts here */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    background-color:#000000;
+    font-size: large;
+}
+
+.footer > p{
+    padding: 10px 0px;
+    color: #ffffffdc;
+}
+
+.foot-2 > p{
+    color: #ffffff;
+}
+
+.foot-2 > p > a{
+    text-decoration: none;
+    color: #43c3df;
+}
+
+.footer > .right {
+    padding: 10px 0px;
+}
+
+
